@@ -37,12 +37,14 @@ section {
 .box {
     padding: 1%;
 }
+
 /*nav*/
 
 nav li{
   float: right;
   list-style: none;
   margin-top: 45px;
+  margin-bottom: 95px;
   display: inline-block;
   margin-right: 40px;
 }
@@ -116,7 +118,7 @@ h4 {
 
 
 header {
-  height: 40vh;
+  height: 85vh;
   background-size: cover;
   background-position: center;
   background-image: url(new_hair3.png);
@@ -138,7 +140,7 @@ header {
   padding:  10px 30px;
   font-weight: 300;
   text-decoration: none;
-  border: 1px solid #a38e7d;
+/*  border: 1px solid #a38e7d;*/
   border-radius: 200px;
   transition: background-color 0.3s, border 0.3s, color 0.3s;
   margin-top: 10px;
@@ -154,7 +156,7 @@ header {
 
 .btn-ghost:link,
 .btn-ghost:visited {
-color: #a38e7d;
+color: #070606;
 
 }
 
@@ -190,8 +192,8 @@ color: #a38e7d;
 
 .info p{
 }
-.info img{
-    height: 125px;
+.lost {
+    height: 80px;
     border-radius: 50%;
 }
 
@@ -281,4 +283,23 @@ footer p {
     color: #888;
     text-align: center;
     margin-top: 20px;
+}
+
+.make-apt {
+  margin-top: 60px
+}
+
+.garage-location {
+  margin-top: 20px;
+}
+
+.yelp {
+  float:right;
+}
+
+
+
+.bah {
+  margin-left: 30%;
+  font-weight: 700;
 }
