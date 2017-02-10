@@ -176,6 +176,17 @@ color: #070606;
   color: #fff;
 }
 
+.information img {
+ height: 65px;
+
+
+}
+
+
+
+
+
+
 
 /*info*/
 
@@ -286,7 +297,7 @@ footer p {
 }
 
 .make-apt {
-  margin-top: 60px
+  margin-bottom: 20px
 }
 
 .garage-location {
@@ -294,12 +305,16 @@ footer p {
 }
 
 .yelp {
-  float:right;
+/*  float:right;*/
+  display: inline;
+  font-size:85%;
+
+}
+.
+
+.yelplogo{
+  height: 10px;
 }
 
 
 
-.bah {
-  margin-left: 30%;
-  font-weight: 700;
-}
