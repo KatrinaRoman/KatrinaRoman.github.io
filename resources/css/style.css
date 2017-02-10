@@ -141,7 +141,7 @@ header {
   font-weight: 300;
   text-decoration: none;
 /*  border: 1px solid #a38e7d;*/
-  border-radius: 200px;
+/*  border-radius: 200px;*/
   transition: background-color 0.3s, border 0.3s, color 0.3s;
   margin-top: 10px;
 }
@@ -162,7 +162,7 @@ color: #070606;
 
 .btn:hover,
 .btn:active {
-  background-color: #a38e7d;
+  background-color: rgba(163, 142, 125, 0.46);
 }
 
 .btn-full:hover,
@@ -172,13 +172,12 @@ color: #070606;
 
 .btn-ghost:hover,
 .btn-ghost:active {
-  border: 1px solid #a38e7d;
   color: #fff;
 }
 
-.information img {
+.contact img {
  height: 65px;
-
+float: left;
 
 }
 
@@ -212,6 +211,8 @@ color: #070606;
     font-size:200%;
     
 }
+
+
 
 /* ----------------------------------------------- */
 /* FOOTER */
@@ -297,7 +298,7 @@ footer p {
 }
 
 .make-apt {
-  margin-bottom: 20px
+  margin-bottom: 50px
 }
 
 .garage-location {
@@ -308,6 +309,7 @@ footer p {
 /*  float:right;*/
   display: inline;
   font-size:85%;
+  
 
 }
 .
