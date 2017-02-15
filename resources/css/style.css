@@ -124,7 +124,7 @@ header {
   background-image: url(new_hair3.png);
 }
 
-.first-text-box {
+.hero-text-box {
   position: absolute;
   width: 700px;
   top: 50%;
@@ -286,9 +286,11 @@ footer {
     color: #dd4b39;
 }
 
+/*
 .ion-social-instagram:hover {
     color: #517fa4;
 }
+*/
 
 
 footer p {
@@ -314,8 +316,15 @@ footer p {
 }
 .
 
-.yelplogo{
+.yelplogo {
   height: 10px;
+}
+
+.ion-social-instagram,
+.ion-social-yahoo {
+  font-size: 300%;
+  margin-right: 15px;
+
 }
 
 
