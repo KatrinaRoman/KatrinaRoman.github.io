@@ -83,9 +83,10 @@ h1 {
     margin-top: 0;
     margin-bottom: 20px;
     color: #000000;
-    font-size: 240%;
+    font-size: 740%;
     word-spacing: 4px;
     letter-spacing: 1px;
+    font-family: Zombies;
 }
 
 h2 {
@@ -99,6 +100,10 @@ h2 {
 h3 {
     font-size: 110%;
     margin-bottom: 15px;
+    font-weight: 600;
+/*  color: #fff;*/
+  
+  
 }
 
 h2:after {
@@ -130,6 +135,7 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 
