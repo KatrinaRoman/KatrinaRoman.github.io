@@ -215,9 +215,14 @@ float: left;
 
 .info i {
     font-size:200%;
+
     
 }
 
+.house-cuts {
+  font-weight:600;
+  border-bottom-color: black;
+}
 
 
 /* ----------------------------------------------- */
